@@ -1,0 +1,7 @@
+# ignore all logs
+*.log
+
+# ignore config.ini for waybar-crypto
+$HOME/.config/hypr/waybar/crypto/config.ini
+$HOME/git/archcraft-dotfiles/config/hypr/waybar/crypto/config.ini
+

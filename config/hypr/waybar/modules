@@ -363,13 +363,23 @@
         "on-click": "$HOME/.config/hypr/waybar/keyhint.sh",
     },
     // ##
-    //
+    // doesn't work..
     "custom/btc": {
         "format": "₿ ${}",
         "interval": 10,
         "exec": "python $HOME/.local/lib/waybar-btc/getPrice.py",
         "exec-if": "exit 0", // always run; consider advanced run conditions
         "signal": 8,
+        "tooltip": false,
+    },
+    // ##
+    //
+    
+    // ##
+    //
+    "custom/launcher": {
+    "format":"",
+        "on-click": "exec nwg-drawer -c 7 -is 70 -spacing 23",
         "tooltip": false,
     },
 
