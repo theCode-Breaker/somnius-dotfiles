@@ -350,7 +350,18 @@
     },
     // ##
     // 
-    
+    "custom/network_traffic": {
+        "exec": "$HOME/.config/hypr/waybar/network_traffic.sh",
+        "return-type": "json",
+        "format-ethernet": "{icon} {ifname} ⇣{bandwidthDownBytes} ⇡{bandwidthUpBytes}",    // optional
+    },
+    // ##
+    //
+    "custom/keyhint": {
+        //"format": " Cheat", // Icon: keyboard //original
+        "format": " C", // Icon: keyboard
+        "on-click": "$HOME/.config/hypr/waybar/keyhint.sh",
+    },
 
     // waybar-tray
     "tray": {
