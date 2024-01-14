@@ -381,7 +381,7 @@
         "exec": "$HOME/.config/hypr/waybar/crypto/waybar_crypto.py",
         "exec-if": "ping pro-api.coinmarketcap.com -c1",
         "on-click": "yad --html --uri='https://www.coingecko.com/en/coins/bitcoin/' --center --fixed --width=1000 --height=680 --timeout=60 --timeout-indicator=right",
-        "on-click-right": "yad --html --uri='https://www.coingecko.com/en/coins/sol/' --center --fixed --width=1000 --height=680 --timeout=60 --timeout-indicator=right"
+        "on-click-right": "yad --html --uri='https://www.coingecko.com/en/coins/solana/' --center --fixed --width=1000 --height=680 --timeout=60 --timeout-indicator=right"
     },
     // ##
     //
