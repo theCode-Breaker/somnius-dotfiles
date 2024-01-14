@@ -34,3 +34,4 @@ echo -ne '\007' #pc speaker beep
 echo " "
 echo "--------------------------------------------------------------"
 echo "All files and folders have been copied over in proper places."
+#$HOME/.config/hypr/theme/theme.sh --default

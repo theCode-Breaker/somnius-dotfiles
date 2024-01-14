@@ -348,6 +348,10 @@
         "exec": "waybar-module-pacman-updates",
         "on-click": "foot -e bash $HOME/scripts/upall"
     },
+    // ##
+    // 
+    
+
     // waybar-tray
     "tray": {
         "icon-size": 16,
