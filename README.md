@@ -10,7 +10,7 @@ Use install.sh to replace local files with that of this hit
 
 You need to have the following installed :
 
-`yad wttrbar copyq emote gnome-themes-extra adwaita-qt5-git adwaita-qt6-git`, 
+`yad wttrbar copyq emote gnome-themes-extra adwaita-qt5-git adwaita-qt6-git`
 
 You can use the following command to install required files :
 
