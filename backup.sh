@@ -9,8 +9,10 @@ echo " "
 echo "[COPY] ~/.bashrc to ./bashrc"
 cp ~/.bashrc ./bashrc
 echo " "
-echo "[COPY] ~/.config/hypr/rofi to ./config/hypr/rofi"
-cp -r ~/.config/hypr/rofi ./config/hypr/rofi
+echo "[COPY] ~/.config/rofi to ./config/rofi"
+cp -r ~/.config/rofi ./config/rofi
+echo " "
+[ -d "./config/hypr/" ] && echo "[STAT] ./config/hypr/ exists." || echo "[ERRR] Directory ./config/hypr/ does NOT exist, creating." && mkdir ./config/hypr
 echo " "
 echo "[COPY] ~/.config/hypr/scripts to ./config/hypr/scripts"
 cp -r ~/.config/hypr/scripts ./config/hypr/scripts
