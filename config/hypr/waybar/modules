@@ -362,6 +362,16 @@
         "format": " C", // Icon: keyboard
         "on-click": "$HOME/.config/hypr/waybar/keyhint.sh",
     },
+    // ##
+    //
+    "custom/btc": {
+        "format": "₿ ${}",
+        "interval": 10,
+        "exec": "python $HOME/.local/lib/waybar-btc/getPrice.py",
+        "exec-if": "exit 0", // always run; consider advanced run conditions
+        "signal": 8,
+        "tooltip": false,
+    },
 
     // waybar-tray
     "tray": {
