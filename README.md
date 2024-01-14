@@ -1,8 +1,9 @@
 # Archcraft dotfiles
 My collection of dotfiles based on Archcraft Wayland Premium
 
-Trying to figure out how to get more than one keyboard layout (en,gr) emoji picker and clipboard history.
+Use backup.sh to backup files
+Use install.sh to replace local files with that of this hit
 
-Stay tuned
+Stay tuned for more
 
 -L
