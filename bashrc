@@ -8,3 +8,7 @@
 alias ls='ls --color=auto'
 alias grep='grep --color=auto'
 PS1='[\u@\h \W]\$ '
+
+## my additions
+alias tb="nc termbin.com 9999"
+
