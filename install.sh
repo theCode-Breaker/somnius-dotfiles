@@ -2,10 +2,10 @@
 clear
 echo "This scripts backs up the dotfiles and misc requirements"
 echo " "
-read -p "Press [Enter] key to start backup..."
+read -p "Press [Enter] key to start the installation process..."
 ## Bash add pause prompt for 5 seconds ##
 echo " "
-read -t 5 -p "I am going to wait Ctrl+C for only 5 seconds...🛑"
+read -t 3 -p "I am going to wait Ctrl+C for only 3 seconds...🛑"
 echo " "
 echo " "
 echo "Creating a zip of the installed files before replacing them..."
@@ -14,7 +14,7 @@ echo " "
 echo "Current Backups"
 du -sh ~/dotfiles_backup*.zip
 echo " "
-read -t 5 -p "Now installing files into places. I am going to wait Ctrl+C for only 5 seconds...🛑"
+read -t 2 -p "Now installing files into places..."
 cp ./bashrc ~/.bashrc
 
 cp -r ./config/rofi/config.rasi ~/.config/rofi/config.rasi

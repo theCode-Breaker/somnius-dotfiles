@@ -154,6 +154,14 @@
          "format": "{free}",
     },           	
 	
+    // ##
+    // custom/weather // wttr.in
+    "custom/weather": {
+        "exec": "curl 'https://wttr.in/Glyfada,%20Greece?format=2&lang=el'",
+        "interval": 900,
+	    "on-click": "yad --html --uri='https://wttr.in/Glyfada,%20Greece?lang=el' --center --fixed --width=1000 --height=680 --timeout=60 --timeout-indicator=right"
+    },
+
 	// waybar-memory
     "memory": {
          "interval": 10,
@@ -321,36 +329,26 @@
          "on-click": "activate",
     },
     // ##
+    // spacer
+    "custom/spacer": {
+        "interval": 10,
+        "format": "  ",
+    },
+    // ##
     // waybar-module-pacman-updates-git
     "custom/updates": {
-        "interval": 7200,
-        "format": "🌐",
-        },
-        "exec-if": "which waybar-module-pacman-updates",
-        "exec": "waybar-module-pacman-updates",
-        "on-click": "foot -e bash /home/lef/scripts/upall"
-    },
-    "custom/updates#2": {
         "format": "{} {icon}",
         "return-type": "json",
         "format-icons": {
-            "has-updates": "󱍷  ",
-            "updated": "󰂪  ",
+            "has-updates": "󱍷",
+            "updated": "󰂪",
          "interval": 7200,
         },
         "exec-if": "which waybar-module-pacman-updates",
         "exec": "waybar-module-pacman-updates",
-        "on-click": "foot -e bash /home/lef/scripts/upall"
+        "on-click": "foot -e bash $HOME/scripts/upall"
     },
-    // ##
-    // custom/weather // wttr.in
-    "custom/weather": {
-        "exec": "curl 'https://wttr.in/Athens,%20Greece?format=2'",
-        "interval": 900,
-	    "on-click": "yad --html --uri='https://wttr.in/Athens,%20Greece' --center --fixed --width=1000 --height=680 --timeout=60 --timeout-indicator=right"
-    },09
-
-	// waybar-tray
+    // waybar-tray
     "tray": {
         "icon-size": 16,
         "spacing": 10

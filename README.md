@@ -10,12 +10,13 @@ Use install.sh to replace local files with that of this hit
 
 You need to have the following installed :
 
-`yad`, 
+`yad wttrbar copyq emote gnome-themes-extra adwaita-qt5-git adwaita-qt6-git`, 
 
 You can use the following command to install required files :
 
 ```
-sudo pacman -S yad
+sudo pacman -Syu yad wttrbar copyq emote
+yay -S gnome-themes-extra adwaita-qt5-git adwaita-qt6-git
 ```
 
 Stay tuned for more
