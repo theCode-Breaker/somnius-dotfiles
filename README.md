@@ -1,6 +1,7 @@
 # Archcraft dotfiles
 
-![Archcraft Wayland Premium](https://archcraft.io/images/wc/wayfire/wayfire.png)
+![Archcraft Wayland Special](https://github.com/archcraft-os/archcraft-wayland-special/raw/main/wayland.gif)
+Visit [Archcraft Wayland Special Github](https://github.com/archcraft-os/archcraft-wayland-special)
 
 My collection of dotfiles based on Archcraft Wayland Premium
 
