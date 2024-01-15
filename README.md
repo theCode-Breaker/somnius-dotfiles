@@ -10,13 +10,24 @@ Use install.sh to replace local files with that of this git
 
 You need to have the following installed :
 
-`yad wttrbar copyq emote gnome-themes-extra adwaita-qt5-git adwaita-qt6-git nwg-drawer nnn neofetch`
+`yad wttrbar copyq emote gnome-themes-extra adwaita-qt5-git adwaita-qt6-git nwg-drawer nnn neofetch mako xfce-polkit`
 
 You can use the following command to install required files :
 
 ```
-sudo pacman -Syu yad wttrbar copyq emote neofetch
-yay -S gnome-themes-extra adwaita-qt5-git adwaita-qt6-git nwg-drawer nnn
+sudo pacman -Syu yad wttrbar copyq emote neofetch xfce-polkit
+yay -S gnome-themes-extra adwaita-qt5-git adwaita-qt6-git nwg-drawer nnn mako
+```
+
+For gtk theming use :
+
+```
+THEME='Manhattan'
+ICONS='Luv-Folders-Dark'
+FONT='Noto Sans 9'
+CURSOR='Qogirr-Dark'
+
+SCHEMA='gsettings set org.gnome.desktop.interface'
 ```
 
 Stay tuned for more

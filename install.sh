@@ -22,6 +22,7 @@ mkdir ~/somnius-dotfiles-backup/ > /dev/null 2> /dev/null
 
 zip -r -9 -q ~/somnius-dotfiles-backup/dotfiles_backup_$(date +"%Y-%m-%d_%H-%M").zip \
 ~/.bashrc \
+~/.config/nwg-drawer \
 ~/.config/rofi \
 ~/.config/hypr \
 ~/Pictures/wallpapers 
@@ -34,6 +35,7 @@ read -t 2 -p "Now installing files into places..."
 cp ./bashrc ~/.bashrc
 
 cp -r ./config/rofi/config.rasi ~/.config/rofi/config.rasi
+cp -r ./config/nwg-drawer/drawer.css ~/.config/nwg-drawer/drawer.css
 
 cp -r ./config/hypr/rofi ~/.config/hypr/
 cp -r ./config/hypr/scripts ~/.config/hypr/
