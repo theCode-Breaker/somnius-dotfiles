@@ -10,6 +10,8 @@ echo " "
 echo " "
 echo "Creating a zip of the installed files before replacing them..."
 
+[ -d "~/" ] && echo "[STAT] ./config exists" || echo "[ERRR] Directory ./config does NOT exist, creating." && mkdir ./config
+
 zip -r -9 -q ~/dotfiles_backup_$(date +"%Y-%m-%d_%H-%M").zip \
 ~/.bashrc \
 ~/.config/rofi \
