@@ -346,7 +346,7 @@
         },
         "exec-if": "which waybar-module-pacman-updates",
         "exec": "waybar-module-pacman-updates",
-        "on-click": "foot -e bash $HOME/.config/hypr/scripts/upall"
+        "on-click": "foot -e bash $HOME/.config/hypr/scripts/upall",
     },
     // ##
     // 
