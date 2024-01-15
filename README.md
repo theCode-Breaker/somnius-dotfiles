@@ -1,9 +1,9 @@
-# Archcraft dotfiles
+# Somnius dotfiles
 
 ![Archcraft Wayland Special](https://github.com/archcraft-os/archcraft-wayland-special/raw/main/wayland.gif)
 For Archcraft Wayland Special Edition, please visit [Archcraft Wayland Special Github](https://github.com/archcraft-os/archcraft-wayland-special)
 
-My collection of dotfiles for Hyprland, based on Archcraft Hyprland.
+**My collection of dotfiles for Hyprland named "Somnius dotfiles", based on Archcraft Hyprland.**
 
 Use backup.sh to backup files
 Use install.sh to replace local files with that of this git
