@@ -1,4 +1,4 @@
-# Somnius dotfiles [somnius-dotfiles]
+# Somnius dotfiles
 
 ![Archcraft Wayland Special](https://github.com/archcraft-os/archcraft-wayland-special/raw/main/wayland.gif)
 *For Archcraft Wayland Special Edition, please visit [Archcraft Wayland Special Github](https://github.com/archcraft-os/archcraft-wayland-special)*
