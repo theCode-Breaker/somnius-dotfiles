@@ -49,4 +49,6 @@ echo " "
 echo "--------------------------------------------------------------"
 echo "All files and folders have been copied over in proper places."
 echo " "
-$HOME/.config/hypr/theme/theme.sh --default
+#$HOME/.config/hypr/theme/theme.sh --default  ## breaks the waybar
+echo "Use the 'theme' icon to re-load hyperland scripts."
+echo " "
