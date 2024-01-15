@@ -13,15 +13,7 @@ echo "Creating a zip of the installed files before replacing them..."
 zip -r -9 -q ~/dotfiles_backup_$(date +"%Y-%m-%d_%H-%M").zip \
 ~/.bashrc \
 ~/.config/rofi \
-~/.config/hypr/rofi \
-~/.config/hypr/scripts \
-~/.config/hypr/theme \
-~/.config/hypr/wallpapers \
-~/.config/hypr/waybar \
-~/.config/hypr/wlogout \
-~/.config/hypr/wofi \
-~/.config/hypr/hyprland.conf \
-~/.config/hypr/hyprtheme.conf \
+~/.config/hypr \
 ~/Pictures/wallpapers 
 
 echo " "
