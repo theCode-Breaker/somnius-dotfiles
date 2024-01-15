@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/usr/bin/env bash
 clear
 ## Variables
 _ver="0.4b"                                             #2024-01-15 last
