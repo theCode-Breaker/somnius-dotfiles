@@ -10,13 +10,13 @@ Use install.sh to replace local files with that of this hit
 
 You need to have the following installed :
 
-`yad wttrbar copyq emote gnome-themes-extra adwaita-qt5-git adwaita-qt6-git nwg-drawer`
+`yad wttrbar copyq emote gnome-themes-extra adwaita-qt5-git adwaita-qt6-git nwg-drawer nnn neofetch`
 
 You can use the following command to install required files :
 
 ```
-sudo pacman -Syu yad wttrbar copyq emote
-yay -S gnome-themes-extra adwaita-qt5-git adwaita-qt6-git nwg-drawer
+sudo pacman -Syu yad wttrbar copyq emote neofetch
+yay -S gnome-themes-extra adwaita-qt5-git adwaita-qt6-git nwg-drawer nnn
 ```
 
 Stay tuned for more

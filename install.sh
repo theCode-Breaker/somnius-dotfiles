@@ -9,10 +9,24 @@ read -t 3 -p "I am going to wait Ctrl+C for only 3 seconds...🛑"
 echo " "
 echo " "
 echo "Creating a zip of the installed files before replacing them..."
-zip -r -9 -q ~/dotfiles_backup_$(date +"%Y-%m-%d_%H-%M").zip ~/.bashrc ~/.config/rofi ~/.config/hypr/rofi ~/.config/hypr/scripts ~/.config/hypr/theme ~/.config/hypr/wallpapers ~/.config/hypr/waybar ~/.config/hypr/wlogout ~/.config/hypr/wofi /.config/hypr/hyprland.conf ~/.config/hypr/hyprtheme.conf
+
+zip -r -9 -q ~/dotfiles_backup_$(date +"%Y-%m-%d_%H-%M").zip \
+~/.bashrc \
+~/.config/rofi \
+~/.config/hypr/rofi \
+~/.config/hypr/scripts \
+~/.config/hypr/theme \
+~/.config/hypr/wallpapers \
+~/.config/hypr/waybar \
+~/.config/hypr/wlogout \
+~/.config/hypr/wofi \
+~/.config/hypr/hyprland.conf \
+~/.config/hypr/hyprtheme.conf \
+~/Pictures/wallpapers 
+
 echo " "
-echo "Current Backups"
-du -sh ~/dotfiles_backup*.zip
+echo "Current Backups (last 3)"
+du -sh ~/dotfiles_backup*.zip|tail -n 3
 echo " "
 read -t 2 -p "Now installing files into places..."
 cp ./bashrc ~/.bashrc
@@ -34,4 +48,5 @@ echo -ne '\007' #pc speaker beep
 echo " "
 echo "--------------------------------------------------------------"
 echo "All files and folders have been copied over in proper places."
-#$HOME/.config/hypr/theme/theme.sh --default
+echo " "
+$HOME/.config/hypr/theme/theme.sh --default

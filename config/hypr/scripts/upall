@@ -1,0 +1,12 @@
+#!/bin/bash
+neofetch
+echo " "
+echo " "
+sudo yay -Sua
+echo " "
+echo "----------------------------------------"
+echo " "
+#sudo pacman -Syu
+sudo pacman -Syyu
+echo " "
+read -p "Press [Enter] key exit"
